@@ -10,8 +10,13 @@ capitalize = require 'underscore.string/capitalize'
 _ = require 'lodash'
 
 module.exports = class RevealGenerator extends yeoman.generators.Base
+
   initializing: ->
     @pkg = @fs.readJSON path.join __dirname, '../package.json'
+
+    @installDependencies
+      bower: false
+      npm: true
 
     # Setup config defaults.
     @config.defaults
@@ -20,6 +25,7 @@ module.exports = class RevealGenerator extends yeoman.generators.Base
       revealTheme: 'black'
       useSass: false
       deployToGithubPages: false
+
 
   prompting:
     askFor: ->
