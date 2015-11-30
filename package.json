@@ -1,6 +1,6 @@
 {
-  "name": "generator-reveal",
-  "version": "0.5.4",
+  "name": "generator-mdslides",
+  "version": "0.0.1",
   "description": "A Reveal.js generator for Yeoman",
   "keywords": [
     "yeoman-generator",
@@ -15,13 +15,6 @@
     "email": "slaramen@gmail.com",
     "url": "https://github.com/slara"
   },
-  "contributors": [
-    {
-      "name": "Jan Raasch",
-      "email": "jan@janraasch.com",
-      "url": "http://janraasch.com"
-    }
-  ],
   "main": "app/index.js",
   "repository": {
     "type": "git",

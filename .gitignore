@@ -3,4 +3,9 @@ coverage/
 temp/
 *.log
 app/index.js
+app/index.js.map
 slide/index.js
+slide/index.js.map
+test/*.js
+test/*.map
+.idea/

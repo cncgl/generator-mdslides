@@ -5,22 +5,22 @@
  */
 
  // This file has been copied over from
- // ../../bower_components/reveal.js/css/theme/source/black.scss
+ // ../../node_modules/reveal.js/css/theme/source/black.scss
 
- // See ../../bower_components/reveal.js/css/theme/README.md
+ // See ../../node_modules/reveal.js/css/theme/README.md
  // for further explanations on how to create a custom reveal.js theme.
 
 // Default mixins and settings -----------------
-@import "../../bower_components/reveal.js/css/theme/template/mixins";
-@import "../../bower_components/reveal.js/css/theme/template/settings";
+@import "../../node_modules/reveal.js/css/theme/template/mixins";
+@import "../../node_modules/reveal.js/css/theme/template/settings";
 // ---------------------------------------------
 
 
 // Include theme-specific fonts
-@import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
+@import url(../node_modules/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
 
 
-// Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
+// Override theme settings (see ../../node_modules/reveal.js/css/theme/template/settings.scss)
 $backgroundColor: #222;
 
 $mainColor: #fff;
@@ -49,5 +49,5 @@ section.has-light-background {
 }
 
 // Theme template ------------------------------
-@import "../../bower_components/reveal.js/css/theme/template/theme";
+@import "../../node_modules/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
