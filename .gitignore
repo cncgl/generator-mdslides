@@ -3,7 +3,6 @@ coverage/
 report/
 temp/
 *.log
-Gruntfile.js
 Gruntfile.js.map
 app/index.js
 app/index.js.map
