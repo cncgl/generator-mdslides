@@ -8,17 +8,17 @@
     "slides",
     "presentation"
   ],
-  "homepage": "https://github.com/slara/generator-reveal",
-  "bugs": "https://github.com/slara/generator-reveal/issues",
+  "homepage": "https://github.com/cncgl/generator-mdslides",
+  "bugs": "https://github.com/cncgl/generator-mdslides/issues",
   "author": {
-    "name": "Sebastian Lara Menares",
-    "email": "slaramen@gmail.com",
-    "url": "https://github.com/slara"
+    "name": "cncgl",
+    "email": "concigel@gmail.com",
+    "url": "https://cncgl.github.io"
   },
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/slara/generator-reveal.git"
+    "url": "git@github.com:cncgl/generator-mdslides.git"
   },
   "scripts": {
     "test": "npm run coffeelint && istanbul test _mocha --report lcovonly -- ./test/*.coffee --require coffee-script/register --reporter spec --timeout 100000",
