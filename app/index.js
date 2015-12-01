@@ -29,10 +29,6 @@
 
     RevealGenerator.prototype.initializing = function() {
       this.pkg = this.fs.readJSON(path.join(__dirname, '../package.json'));
-      this.installDependencies({
-        bower: false,
-        npm: true
-      });
       return this.config.defaults({
         presentationTitle: 'Reveal.js and Yeoman is Awesomeness',
         packageVersion: '0.0.0',
@@ -148,7 +144,9 @@
 
     RevealGenerator.prototype.install = function() {
       return this.installDependencies({
-        skipInstall: this.options['skip-install']
+        skipInstall: this.options['skip-install'],
+        npm: true,
+        bower: false
       });
     };
 

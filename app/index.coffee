@@ -14,10 +14,6 @@ module.exports = class RevealGenerator extends yeoman.generators.Base
   initializing: ->
     @pkg = @fs.readJSON path.join __dirname, '../package.json'
 
-    @installDependencies
-      bower: false
-      npm: true
-
     # Setup config defaults.
     @config.defaults
       presentationTitle: 'Reveal.js and Yeoman is Awesomeness'
@@ -117,4 +113,7 @@ module.exports = class RevealGenerator extends yeoman.generators.Base
       @fs.copy @templatePath('gitignore'), @destinationPath('.gitignore')
 
   install: ->
-    @installDependencies skipInstall: @options['skip-install']
+    @installDependencies
+      skipInstall: @options['skip-install']
+      npm: true
+      bower: false
