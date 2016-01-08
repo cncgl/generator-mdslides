@@ -12,5 +12,6 @@ ratings:
   - "**.coffee"
   - "**.js"
 exclude_paths:
+- app/templates/**/*
 - test/**/*
 - slide/**/*
