@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/cncgl/generator-mdslides.svg)](https://travis-ci.org/cncgl/generator-mdslides)
 [![Coverage Status](https://coveralls.io/repos/cncgl/generator-mdslides/badge.svg?branch=master&service=github)](https://coveralls.io/github/cncgl/generator-mdslides?branch=master)
+[![Code Climate](https://codeclimate.com/github/cncgl/generator-mdslides/badges/gpa.svg)](https://codeclimate.com/github/cncgl/generator-mdslides)
 
 Yoeman generator for markdown reveal.js
 
