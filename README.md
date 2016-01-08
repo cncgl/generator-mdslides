@@ -1,4 +1,7 @@
 # generator-mdslides
+
+[![Build Status](https://travis-ci.org/cncgl/generator-mdslides.svg)](https://travis-ci.org/cncgl/generator-mdslides)
+
 Yoeman generator for markdown reveal.js
 
 ## install
