@@ -10,7 +10,7 @@ Yoeman generator for markdown reveal.js
 ## install
 
 ```bash
-npm i https://github.com/cncgl/generator-mdslides.git
+npm i cncgl/generator-mdslides
 ```
 
 ## generate boilerplate
