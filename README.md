@@ -10,13 +10,14 @@ Yoeman generator for markdown reveal.js
 ## install
 
 ```bash
-npm i cncgl/generator-mdslides
+$ npm i -g yo
+$ npm i cncgl/generator-mdslides
 ```
 
 ## generate boilerplate
 
 ```bash
-yo mdslides
+$ yo mdslides
 ```
 
 ## write markdown
@@ -29,13 +30,13 @@ To write a new slide separate by `<LF><LF><LF>`.
 ## preview slides
 
 ```bash
-npm run serve
+$ npm run serve
 ```
 
 ## export to pdf
 
 ```bash
-npm run pdf
+$ npm run pdf
 ```
 
 ## license
