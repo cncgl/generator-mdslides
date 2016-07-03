@@ -30,21 +30,21 @@
     "chalk": "^1.1.0",
     "lodash": "^3.10.0",
     "semver": "^5.0.0",
-    "underscore.string": "^3.2.3",
-    "yeoman-generator": "^0.22.5",
-    "yosay": "^1.0.4"
+    "underscore.string": "^3.3.4",
+    "yeoman-generator": "^0.23.4",
+    "yosay": "^1.2.0"
   },
   "devDependencies": {
     "coffee-script": "^1.8.0",
     "coffeelint": "^1.14.2",
     "coffeelint-use-strict": "^1.0.0",
-    "coveralls": "^2.11.6",
+    "coveralls": "^2.11.9",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-coffee": "^0.13.0",
     "grunt-contrib-watch": "^0.6.1",
     "istanbul": "^0.4.0",
-    "jshint": "^2.9.1",
+    "jshint": "^2.9.2",
     "load-grunt-tasks": "^3.4.0",
     "mocha": "^2.4.5"
   },
